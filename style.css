@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+    padding: 10px;
+  }
+
+  body {
+    position: relative;
+  }
+
+  #header {
+    height: auto;
+    width: fit-content;
+    text-align: left;
+    position: absolute;
+    top: 50vh;
+    left: 50vw;
+    transform: translate(-50%, -50%);
+  }
+
+  #line1,
+  #line2,
+  #line3 {
+    font-family: "Franklin Gothic Meadium", "Arial Narrow", Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: bolder;
+    color: black;
+  }
+
+  #line1 {
+    font-size: 3rem;
+    line-height: 6vh;
+  }
+
+  #line2 {
+    font-size: 6rem;
+    line-height: 9vh;
+  }
+
+  #line3 {
+    font-size: 10rem;
+    line-height: 120px;
+  }
+
+  img {
+    height: 65px;
+  }
+
+  body {
+    background-color: rgb(230, 230, 230);
+  }
